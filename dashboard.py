@@ -28,5 +28,9 @@ def display_dashboard(trades, account_info, goals):
 # - EA status
 def run_dashboard():
     # Copilot will generate dashboard UI logic here
-    pass
+    pass def update_dashboard(scanner_data, ml_predictions, account_info):
+    print("🔎 Scanner:", scanner_data)
+    print("🤖 ML Predictions:", ml_predictions)
+    print("💰 Account info:", account_info)
+
 
